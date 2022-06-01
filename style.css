@@ -46,6 +46,7 @@ nav a{
 
 nav a:hover{
   color: white;
+  transition-duration: 2s;
 }
 
 /* fin barra menu */
@@ -138,6 +139,8 @@ body {
     grid-template-areas: 
     "header header header header"
     "noti-1 noti-2 noti-3 sidebar"
+    "noti-1 noti-2 noti-3 sidebar"
+    "noti-1 noti-2 noti-3 sidebar"
     "footer footer footer footer";
   }
 
@@ -157,5 +160,12 @@ body {
 
   p {
     font-size: 15px;
+  }
+
+  /* aside */
+
+  .sidebar{
+    background: -prefix-linear-gradient(left, blue, white);
+    background: linear-gradient(to right, blue, white);
   }
 }
